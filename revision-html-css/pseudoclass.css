@@ -1,0 +1,19 @@
+/* h4:nth-of-type(1) {
+    color: chartreuse;
+} */
+
+/* h4:nth-of-type(2n) {
+    color: chartreuse;
+} */
+
+/* h4:nth-of-type(3n) {
+    color: chartreuse;
+} */
+
+/* h4:nth-of-type(2n+1) {
+    color: chartreuse;
+} */
+
+h4:nth-of-type(2n+2) {
+    color: chartreuse;
+}
