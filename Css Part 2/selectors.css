@@ -1,107 +1,113 @@
-h1{
-    background-color: navy !important;
-
+h1 {
+  background-color: navy !important;
 }
 
 /* universal selecotrs */
-*{
-    font-family: 'Courier New';
+* {
+  font-family: "Courier New";
 }
 
 /* element selecotrs */
-h1,h3{
-    color: #b92b27;
+h1,
+h3 {
+  color: #b92b27;
 }
 
 /* id selectors */
 #login {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 
-#signup{
-    background-color:blue ;
-    color: white;
+#signup {
+  background-color: blue;
+  color: white;
 }
 
 /* classs selectors */
-.myclass{
-    background-color: mediumvioletred;
+.myclass {
+  background-color: mediumvioletred;
 }
 
 /* descendant selectors */
-.post a{
-    color: #d7ba15;
+.post a {
+  color: #d7ba15;
 }
-
 
 /* adjacent sibling combinators */
-p+h3{
-    text-decoration: underline;
+p + h3 {
+  text-decoration: underline;
 }
 
-.myclass + button{
-    background-color: rgb(73, 73, 157);
+.myclass + button {
+  background-color: rgb(73, 73, 157);
 }
-
 
 /* child combinator */
-div > input{
-    background-color: darkgreen;
-   
+div > input {
+  background-color: darkgreen;
 }
 
 /* attributr selector */
 
-input[type="text"]{
-    color: #b92b27;
-    background-color: aliceblue;
+input[type="text"] {
+  color: #b92b27;
+  background-color: aliceblue;
 }
 
 /* pseudo class */
 
-button:hover{
-    background-color: black;
-    color: white;
+button:hover {
+  /* hover */
+  background-color: black;
+  color: white;
 }
 
 h3:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-button:active{
-    background-color: chartreuse;
+button:active {
+  /* click */
+  background-color: chartreuse;
 }
 
-p:active{
-    color: #d7ba15;
+p:active {
+  font-family: bold;
+  background-color: bisque;
 }
 
-input[type="radio"]:checked + label{
-    color: red;
-    font-weight: bold;
+input[type="radio"]:checked + label {
+  /* checked */
+  color: red;
+  font-weight: bold;
 }
 
-div:nth-of-type(2n){
-    background-color: darkslategray;
+div:nth-of-type(2n) {
+  /* nth-of-type(...)*/
+  background-color: darkslategray;
 }
 
 /* pseudo element */
 
-h1::first-letter{
-    color: goldenrod;
-}
-  
-p::first-line{
-   color: darkblue;
-   font-weight: 700;
-}
-p::selection{
-    background-color: #d7ba15;
+h1::first-letter {
+  color: goldenrod;
 }
 
-h3{
-    background-color: aquamarine;
+p::first-line {
+  color: darkblue;
+  font-weight: 700;
 }
-h3{
-    background-color: mediumslateblue;
+
+p::selection {
+  /* select keley part chi css change hote */
+  background-color: #d7ba15;
+}
+
+h3 {
+  background-color: gray;
+}
+
+h3 { 
+    /* priority 2nd element la aste */
+  background-color: skyblue;
 }
