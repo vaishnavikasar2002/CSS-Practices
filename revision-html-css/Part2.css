@@ -1,0 +1,32 @@
+* {
+    font-family: "Courier New";
+}
+
+h3,p {
+    color: #b92b27;
+}
+
+/* practices q */
+
+h1 {
+    color: #1b74e4;
+}
+
+#searchbtn {
+    background-color: black;
+    color: white;
+    
+}
+
+.userbtn {
+    background-color: aqua
+}
+
+.h1 {
+    background-color: antiquewhite;
+}
+
+#h1 {
+    background-color: rgb(215, 234, 250);
+}
+

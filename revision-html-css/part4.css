@@ -1,0 +1,54 @@
+div {
+    height: 200px;
+    width: 200px;
+    /* background-color: rgba(0, 255, 115, 1);backend color la opacity apply hote */
+
+}
+
+.opacity {
+    background-color: red; /*ithe div la opacity apply hote */
+    opacity: 1;
+}
+
+/* transition */
+
+.box3 {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    /* transition: 2s;
+    transition-delay: 2s; */
+}
+
+/* .box3:hover {
+    background-color: goldenrod;
+    border-radius: 50%;
+} */
+
+
+/* translate */
+#container {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.box4 {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    /* transform: translateX(60px);
+    transform: translateY(30px); */
+    transform: translate(60px,30px);
+    /* transform: rotate(30deg);
+    transform: skew(70deg); */
+
+}
+
+/* boxshadow */
+.box-shadow {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    box-shadow: 2px 2px 18px black;
+}
