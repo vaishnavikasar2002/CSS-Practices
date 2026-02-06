@@ -1,0 +1,63 @@
+.box {
+    height: 200px;
+    width: 250px;
+    background-color: brown;
+    text-align: center;
+
+    animation-name: fontAnimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    transition-delay: 0s;
+    animation-iteration-count: 5;
+    animation-direction: reverse;
+
+    /* animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    transition-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+
+    /* animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transition-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* or */
+    /* animation: colorAnimate 3s ease-in-out 0s 1 reverse ; */
+}
+
+@keyframes fontAnimation {
+    0% {
+        font-size:20;
+    }
+    50% {
+        font-size:40px;
+    }
+    100% {
+        font-size:60px;
+    }
+}
+
+@keyframes colorAnimate {
+    from {
+        width: 10px;
+        background-color: blueviolet;
+    }
+    to {
+        width: 300px;
+        background-color: chartreuse;
+        border-radius: 20px;
+    }
+}
+
+/* @keyframes widthAnimate {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 300px;
+    }
+} */
